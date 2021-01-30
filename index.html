@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main id="calculadora">
+        <section id="display">
+            <input type="text" id="historico" value="" disabled>
+            <output id="result" name="result" for="historico">0</output>
+        </section>
+
+        <section id="teclas">
+            <button type="button" data-all-clear>C</button>
+            <button type="button" data-backspace>&#8676;</button>
+            <button type="button" data-percent><img width="100%" src="https://media-exp1.licdn.com/dms/image/C4D0BAQGIHnG-d4HfbQ/company-logo_200_200/0?e=2159024400&v=beta&t=43j1G-kZdBMFzAyuRujGCwhwJ9zfhh8Eo766B99aaSQ" alt=""></button>
+            <button type="button" data-operator="÷" class="operator">&divide;</button>
+
+            <button type="button" data-number="7">7</button>
+            <button type="button" data-number="8">8</button>
+            <button type="button" data-number="9">9</button>
+            <button type="button" data-operator="x" class="operator">&times;</button>
+
+            <button type="button" data-number="4">4</button>
+            <button type="button" data-number="5">5</button>
+            <button type="button" data-number="6">6</button>
+            <button type="button" data-operator="-" class="operator">&minus;</button>
+
+            <button type="button" data-number="1">1</button>
+            <button type="button" data-number="2">2</button>
+            <button type="button" data-number="3">3</button>
+            <button type="button" data-operator="+" class="operator">&plus;</button>
+
+            <button type="button" data-negation>&plus;/&minus;</button>
+            <button type="button" data-number="0">0</button>
+            <button type="button" data-decimal=".">&sdot;</button>
+            <button type="button" data-equals="=" class="operator">&equals;</button>
+
+        </section>
+    </main>
+    <script src="main.js"></script>
+</body>
+
+</html>
